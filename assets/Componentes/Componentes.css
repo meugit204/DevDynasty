@@ -1,0 +1,71 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+/* Cores */
+:root {
+  --azul-escuro: #011933; /* Azul-escueo */
+  --azul-claro: #043d64; /* Azul-claro */
+  --texto-branco: #fff; /* Branco */
+  --texto-azul-claro: #076eb2; /* azul-claro */
+}
+/* Exemplo de uso das variáveis */
+/* Define a largura padrao do container */
+.container {
+  width: 1185px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* style da logo */
+.logo a {
+  font-size: 34px;
+  color: var(--texto-branco);
+  font-family: "Crimson Pro", serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Style dos botoes */
+.btn {
+  width: 270px;
+  height: 50px;
+  display: block;
+  color: var(--texto-branco);
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  background: rgb(8, 120, 196);
+  background: linear-gradient(
+    143deg,
+    rgba(8, 120, 196, 1) 35%,
+    rgba(4, 58, 94, 1) 64%
+  );
+}
+/* Style dos titulos h1/h2 */
+.title02 {
+  font-size: 34px;
+  color: #000;
+  font-weight: bold;
+}
+/* Style das info/serviços */
+.servico__info {
+  max-width: 470px;
+  border-bottom: 1px solid #000;
+  margin-top: 30px;
+}
+.servico__info h2 {
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+}
+.servico__info p {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  max-width: 335px;
+  padding: 15px 0;
+}

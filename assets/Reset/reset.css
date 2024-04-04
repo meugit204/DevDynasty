@@ -1,0 +1,140 @@
+/* Reset CSS da Página */
+
+/* Seletores universais */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Elementos de bloco padrão */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Estilos básicos de elementos semânticos */
+body {
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remover list-style padrão (bullets) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remover margem padrão de lista */
+ul,
+ol,
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remover estilo de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* Remover estilo de botão padrão */
+button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* Outros elementos comuns */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  margin: 0;
+  outline: none;
+}
+
+/* Corrigir possíveis problemas de herança */
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Corrigir altura inconsistente no Firefox */
+button,
+input,
+select,
+textarea {
+  vertical-align: middle;
+}
+
+/* Remover contorno padrão no Firefox */
+button,
+input,
+textarea {
+  outline: none;
+}
+
+/* Tornar elementos de formulário mais consistentes em todos os navegadores */
+input::-ms-clear {
+  display: none;
+}
+
+/* Remover estilo padrão do range input no WebKit */
+input[type="range"] {
+  -webkit-appearance: none;
+}
+
+/* Corrigir estilo de botão no Safari */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}

@@ -1,0 +1,163 @@
+/* Importe do Reset css */
+@import url(../../assets/Reset/reset.min.css);
+/* Importe das classes auxiliares css */
+@import url(../../assets/Classes-Auxiliares/auxiliares.min.css);
+/* Importe dos componentes css */
+@import url(../../assets/Componentes/Componentes.min.css);
+/* Importe das fonts */
+@import url(../../assets/Fonts/Font-Projeto.min.css);
+/* Importe breakpoints css */
+@import url(../../assets/Breakpoints/Breakpoints.min.css);
+
+/* Style da Página */
+body {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+/* Style do header */
+header {
+  width: 100%;
+  height: 768px;
+  background-image: url(/assets/imagens/BG-chamada.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header__nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__btn {
+  padding: 4px 30px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--texto-branco);
+  cursor: pointer;
+}
+/* Style do header chamada */
+.chamada__container {
+  height: 698px;
+  display: flex;
+  align-items: center;
+}
+.header__chamada {
+  max-width: 450px;
+}
+.header__chamada h1 {
+  color: var(--texto-branco);
+  font-weight: bold;
+  font-size: 42px;
+}
+.header__chamada p {
+  color: var(--texto-branco);
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.header__chamada a {
+  margin-top: 30px;
+}
+/* Fim do style do header */
+/* Style do main */
+main {
+  margin-top: 90px;
+}
+main > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.servico__img {
+  display: flex;
+  align-items: center;
+}
+.servico__sobre {
+  max-width: 470px;
+  height: auto;
+}
+.sobre__title {
+  margin-bottom: 30px;
+}
+.sobre__title h2 {
+  color: var(--texto-azul-claro);
+  font-size: 21px;
+  font-weight: bold;
+  text-align: right;
+}
+.sobre__title h1 {
+  text-align: right;
+  padding: 15px 0 30px 0;
+}
+.sobre__title p {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+/* Fim style do main */
+
+/* Style de contratar */
+.contratar {
+  margin-top: 90px;
+}
+.contratar > .container {
+  display: flex;
+  background-color: var(--azul-escuro);
+  padding: 30px 15px;
+}
+.contratar__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contratar__sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contratar__container {
+  max-width: 483px;
+}
+.contratar__sobre h1 {
+  color: #fff;
+}
+.contratar__sobre p {
+  max-width: 483px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.contratar__sobre p:last-of-type {
+  margin-top: 15px;
+}
+.contratar__sobre a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+/* Footer copywriter */
+.footer__copywriter {
+  background-color: var(--azul-claro);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 2px;
+  display: none;
+}

@@ -1,0 +1,101 @@
+/* breakpoints.css */
+
+/* Estilos para dispositivos com largura de tela até 1185 pixels */
+@media (max-width: 1185px) {
+  /* Body */
+  body {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "contratar" "footer";
+  }
+  /* Container */
+  .container {
+    width: 100%;
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 760 pixels */
+@media (max-width: 760px) {
+  /* Breakpoint / header__chamada */
+  .chamada__container {
+    justify-content: center;
+  }
+  .header__chamada h1,
+  p {
+    text-align: center;
+  }
+  .header__chamada a {
+    margin: 0 auto;
+  }
+  /* Breakpoint do main */
+  main > .container {
+    flex-direction: column;
+  }
+  .servico__sobre,
+  .servico__img {
+    width: 100%;
+  }
+  .servico__img {
+    justify-content: center;
+  }
+  .servico__img img {
+    width: 360px;
+  }
+  .servico__info,
+  .servico__info p,
+  .servico__sobre {
+    max-width: 100%;
+  }
+  /* Style das info/serviços */
+  .servico__info p {
+    text-align: left;
+  }
+  /* Style de contratar */
+  .contratar > .container {
+    flex-direction: column;
+  }
+  .contratar__img,
+  .contratar__sobre {
+    width: 100%;
+  }
+  .contratar__container {
+    max-width: 100%;
+  }
+
+  .contratar__sobre h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .contratar__sobre p {
+    text-align: left;
+  }
+  .contratar__sobre a {
+    margin: 30px auto 0 auto;
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 630 pixels */
+@media (max-width: 630px) {
+  /* Breakpoint header__nav */
+  .logo a {
+    font-size: 26px;
+  }
+  .header__nav > .nav__btn {
+    padding: 2px 4px;
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 385 pixels */
+@media (max-width: 385px) {
+  /* Breakpoint header__chamada */
+  .chamada__container > .header__chamada h1 {
+    font-size: 34px;
+  }
+}
+
+/* Estilos para dispositivos com largura de tela até 346 pixels */
+@media (max-width: 346px) {
+  /* Breakpoint nav__btn */
+  .header__nav > .nav__btn {
+    font-size: 14px;
+  }
+}
