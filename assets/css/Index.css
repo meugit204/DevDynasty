@@ -11,7 +11,7 @@
 
 /* Style da Página */
 body {
-  background-color: #fff;
+  background-color: var(--azul-escuro);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -70,6 +70,7 @@ header {
   margin-top: 30px;
 }
 /* Fim do style do header */
+
 /* Style do main */
 main {
   margin-top: 90px;
@@ -102,20 +103,54 @@ main > .container {
   padding: 15px 0 30px 0;
 }
 .sobre__title p {
-  color: #000;
+  color: var(--texto-branco);
   font-size: 16px;
   font-weight: normal;
   text-align: left;
 }
 /* Fim style do main */
 
+/* Style atendemos */
+.atendemos {
+  background-color: var(--azul-escuro);
+  margin-top: 90px;
+}
+.atendemos02 {
+  margin-top: 30px;
+  background-color: var(--azul-escuro);
+}
+.atendemos > .container {
+  padding: 30px 15px;
+}
+.title__atendemos {
+  color: var(--texto-branco);
+}
+.container__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* chamada */
+.chamada__atendemos {
+  margin-top: 90px;
+}
+.chamada__atendemos > .container a {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+/* Fim do Style atendemos */
+
 /* Style de contratar */
 .contratar {
   margin-top: 90px;
+  background-color: var(--azul-escuro);
 }
 .contratar > .container {
   display: flex;
-  background-color: var(--azul-escuro);
   padding: 30px 15px;
 }
 .contratar__img {
@@ -133,11 +168,11 @@ main > .container {
   max-width: 483px;
 }
 .contratar__sobre h1 {
-  color: #fff;
+  color: var(--texto-branco);
 }
 .contratar__sobre p {
   max-width: 483px;
-  color: #fff;
+  color: var(--texto-branco);
   font-weight: normal;
   font-size: 15px;
   margin-top: 30px;
@@ -155,7 +190,7 @@ main > .container {
 /* Footer copywriter */
 .footer__copywriter {
   background-color: var(--azul-claro);
-  color: #fff;
+  color: var(--texto-branco);
   font-size: 13px;
   text-align: center;
   padding: 10px 2px;
