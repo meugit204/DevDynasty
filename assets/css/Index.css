@@ -221,22 +221,22 @@ main > .container {
   gap: 30px;
 }
 .projeto01 {
-  background-image: url(/assets/imagens/projeto01.png);
+  background-image: url(../../assets/imagens/projeto01.png);
 }
 .projeto02 {
-  background-image: url(/assets/imagens/projeto02.png);
+  background-image: url(../../assets/imagens/projeto02.png);
 }
 .projeto03 {
-  background-image: url(/assets/imagens/projeto03.png);
+  background-image: url(../../assets/imagens/projeto03.png);
 }
 .projeto04 {
-  background-image: url(/assets/imagens/projeto04.png);
+  background-image: url(../../assets/imagens/projeto04.png);
 }
 .projeto05 {
-  background-image: url(/assets/imagens/projeto05.png);
+  background-image: url(../../assets/imagens/projeto05.png);
 }
 .projeto06 {
-  background-image: url(/assets/imagens/projeto06.png);
+  background-image: url(../../assets/imagens/projeto06.png);
 }
 /* Footer copywriter */
 footer {
