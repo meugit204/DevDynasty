@@ -91,6 +91,17 @@
   .card__img img {
     margin: 0 auto;
   }
+  /* Portifolio */
+  .portifolio__flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .projeto01,
+  .projeto02,
+  .projeto03 {
+    margin-top: 60px;
+  }
 }
 
 /* Estilos para dispositivos com largura de tela até 630 pixels */
