@@ -5,11 +5,18 @@
   /* Body */
   body {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "contratar" "footer";
+    grid-template-areas: "header" "main" "contratar" "portifolio" "feedbacks" "footer";
   }
   /* Container */
   .container {
     width: 100%;
+  }
+  .slider-container {
+    width: 100%;
+  }
+  .container__feedback {
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -66,7 +73,7 @@
     margin-top: 30px;
   }
   .contratar__sobre p {
-    text-align: left;
+    text-align: center;
   }
   .contratar__sobre a {
     margin: 30px auto 0 auto;
@@ -102,6 +109,41 @@
   .projeto03 {
     margin-top: 60px;
   }
+  /* Feedbacks */
+  .slider {
+    height: auto;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .slide__img {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .slide__feedbak {
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+  }
+  .feedbak__stars {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .slide__feedbak p {
+    max-width: 100%;
+    height: 180px;
+    text-align: center;
+    padding: 10px 15px;
+  }
+  .flex > .navigation {
+    bottom: 5px;
+    right: auto;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 /* Estilos para dispositivos com largura de tela até 630 pixels */
@@ -112,6 +154,16 @@
   }
   .header__nav > .nav__btn {
     padding: 2px 8px;
+  }
+}
+/* Estilos para dispositivos com largura de tela até 630 pixels */
+@media (max-width: 397px) {
+  /* Style dos titulos h1/h2 */
+  .container > .title02 {
+    font-size: 26px;
+  }
+  .contratar__container > .title02 {
+    font-size: 26px;
   }
 }
 

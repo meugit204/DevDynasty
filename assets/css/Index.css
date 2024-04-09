@@ -12,12 +12,6 @@
 /* Style da Página */
 body {
   background-color: var(--azul-escuro);
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
 }
 
 /* Style do header */
@@ -209,11 +203,11 @@ main > .container {
     rgba(8, 120, 196, 1) 35%,
     rgba(4, 58, 94, 1) 64%
   );
-  margin-top: 90px;
+  margin-top: 60px;
   border-radius: 20px;
 }
 .portifolio > .container > .title02 {
-  margin-top: 90px;
+  margin-top: 60px;
   text-align: center;
 }
 .portifolio__flex {
@@ -238,9 +232,45 @@ main > .container {
 .projeto06 {
   background-image: url(../../assets/imagens/projeto06.png);
 }
-/* Footer copywriter */
+/* Feedbacks */
+.container__feedback {
+  width: 1170px;
+  margin: 90px auto 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.foto01 {
+  background-image: url(../../assets/imagens/feedbacks/01.png);
+}
+
+.foto02 {
+  background-image: url(../../assets/imagens/feedbacks/02.png);
+}
+
+.foto03 {
+  background-image: url(../../assets/imagens/feedbacks/03.png);
+}
+.navigation {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.navigation button {
+  background: #076eb2;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Footer / copywriter */
 footer {
-  margin-top: 90px;
+  margin-top: 60px;
   background-color: #000;
 }
 .footer__nav {
@@ -248,11 +278,11 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 90px;
-  padding: 30px 0;
+  padding: 30px 15px;
 }
 .footer__icons {
   display: flex;
-  gap: 30px;
+  gap: 15px;
 }
 .footer__copywriter {
   background-color: #000;
