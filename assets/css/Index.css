@@ -235,9 +235,13 @@ main > .container {
 /* Feedbacks */
 .container__feedback {
   width: 1170px;
-  margin: 90px auto 0 auto;
+  margin: 60px auto 0 auto;
   overflow: hidden;
   position: relative;
+}
+.container__feedback > .title02 {
+  text-align: center;
+  padding: 30px 15px;
 }
 
 .foto01 {

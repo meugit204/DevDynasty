@@ -157,12 +157,15 @@
   }
 }
 /* Estilos para dispositivos com largura de tela até 630 pixels */
-@media (max-width: 397px) {
+@media (max-width: 400px) {
   /* Style dos titulos h1/h2 */
   .container > .title02 {
     font-size: 26px;
   }
   .contratar__container > .title02 {
+    font-size: 26px;
+  }
+  .container__feedback > .title02 {
     font-size: 26px;
   }
 }
