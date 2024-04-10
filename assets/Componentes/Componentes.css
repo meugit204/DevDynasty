@@ -233,8 +233,11 @@ html {
 .feedbak__stars {
   max-width: 100%;
   width: 522px;
+  display: flex;
+  gap: 10px;
+  padding: 5px 0;
 }
-.feedbak__stars span {
+.feedbak__stars i {
   font-size: 30px;
   color: yellow;
 }
