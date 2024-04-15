@@ -250,12 +250,16 @@ html {
   font-size: 30px;
   color: yellow;
 }
-
+.depoimento {
+  max-width: 522px;
+  width: 100%;
+}
 .slide__feedbak p {
   font-size: 16px;
   font-weight: normal;
   text-align: left;
   max-width: 522px;
+
   color: #000;
   overflow: hidden;
   background-color: #fff;

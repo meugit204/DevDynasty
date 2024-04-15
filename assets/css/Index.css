@@ -18,7 +18,7 @@ body {
 header {
   width: 100%;
   height: 768px;
-  background-image: url(../imagens/BG-chamada.png);
+  background-image: url(../imagens/BG-chamada.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -215,22 +215,22 @@ main > .container {
   gap: 30px;
 }
 .projeto01 {
-  background-image: url(../../assets/imagens/projeto01.png);
+  background-image: url(../../assets/imagens/projeto01.webp);
 }
 .projeto02 {
-  background-image: url(../../assets/imagens/projeto02.png);
+  background-image: url(../../assets/imagens/projeto02.webp);
 }
 .projeto03 {
-  background-image: url(../../assets/imagens/projeto03.png);
+  background-image: url(../../assets/imagens/projeto03.webp);
 }
 .projeto04 {
-  background-image: url(../../assets/imagens/projeto04.png);
+  background-image: url(../../assets/imagens/projeto04.webp);
 }
 .projeto05 {
-  background-image: url(../../assets/imagens/projeto05.png);
+  background-image: url(../../assets/imagens/projeto05.webp);
 }
 .projeto06 {
-  background-image: url(../../assets/imagens/projeto06.png);
+  background-image: url(../../assets/imagens/projeto06.webp);
 }
 /* Feedbacks */
 .container__feedback {
@@ -245,15 +245,19 @@ main > .container {
 }
 
 .foto01 {
-  background-image: url(../../assets/imagens/feedbacks/01.png);
+  background-image: url(../../assets/imagens/feedbacks/01.webp);
 }
-
 .foto02 {
-  background-image: url(../../assets/imagens/feedbacks/02.png);
+  background-image: url(../../assets/imagens/feedbacks/02.webp);
 }
-
 .foto03 {
-  background-image: url(../../assets/imagens/feedbacks/03.png);
+  background-image: url(../../assets/imagens/feedbacks/03.webp);
+}
+.foto04 {
+  background-image: url(../../assets/imagens/feedbacks/04.webp);
+}
+.foto05 {
+  background-image: url(../../assets/imagens/feedbacks/05.webp);
 }
 .navigation {
   position: absolute;
